@@ -1,0 +1,39 @@
+
+hr{
+	width: 300px;
+	border: 3px solid #434444;
+}
+.product-grid{
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+.product-grid:hover{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.image{
+	position: relative;
+}
+.buy{
+	background-color: transparent;
+	color: #434444;
+	border-radius: 25px;
+	border: 1px solid #434444;
+	width: 100%;
+	margin-top: 20px;
+}
+.buy:hover{
+	background-color: #434444;
+	color: #fff;
+}
+.cart{
+	background-color: transparent;
+	color: #434444;
+	border-radius: 25px;
+	border: 1px solid green;
+	width: 100%;
+	margin-top:6px;
+}
+.cart:hover{
+	background-color: green;
+	color: #fff;
+}
