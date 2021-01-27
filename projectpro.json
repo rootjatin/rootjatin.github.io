@@ -3,36 +3,48 @@
         "name": "Blazer",
         "picture": "images/products/blazer1.jpeg",
         "old_price": 120,
-        "price": 85
+        "price": 85,
+        "Color":"Red",
+        "Quantity":1
       },
       {
         "name": "Red dress",
         "picture": "images/products/dress1.jpeg",
         "old_price": 100,
-        "price": 50
+        "price": 50,
+        "Color":"Yellow",
+        "Quantity":1
       },
       {
         "name": "Heels type 1",
         "picture": "images/products/hills1.jpeg",
         "old_price": 100,
-        "price": 50
+        "price": 50,
+        "Color":"black",
+        "Quantity":1
       },
       {
         "name": "blazer type 2",
         "picture": "images/products/blazer2.jpeg",
         "old_price": 100,
-        "price": 50
+        "price": 50,
+        "Color":"dark Red",
+        "Quantity":1
       },
       {
         "name": "heels type 2",
         "picture": "images/products/pants2.jpeg",
         "old_price": 100,
-        "price": 50
+        "price": 50,
+        "Color":"light Red",
+        "Quantity":1
       },
       {
         "name": "black dress",
         "picture": "images/products/dress2.jpeg",
         "old_price": 100,
-        "price": 50
+        "price": 50,
+        "Color":"white",
+        "Quantity":1,
       }
 ]
