@@ -7,7 +7,7 @@
         "Color":"Red",
         "Quantity":1,
         "details":"this product is imported from india and this product is best",
-        "available_size":["M","S","L","XL"],
+        "size":["M","S","L","XL"],
         "brand":"chicago",
         "origin":"India"
       },
@@ -19,7 +19,7 @@
         "Color":"Yellow",
         "Quantity":1,
         "details":"this product is imported from india and this product is best",
-        "available_size":["M","S","L","XL"],
+        "size":["M","S","L","XL"],
         "brand":"chicago",
         "origin":"India"
       },
@@ -31,7 +31,7 @@
         "Color":"black",
         "Quantity":1,
         "details":"this product is imported from india and this product is best",
-        "available_size":["M","S","L","XL"],
+        "size":["M","S","L","XL"],
         "brand":"chicago",
         "origin":"India"
       },
@@ -43,7 +43,7 @@
         "Color":"dark Red",
         "Quantity":1,
         "details":"this product is imported from india and this product is best",
-        "available_size":["M","S","L","XL"],
+        "size":["M","S","L","XL"],
         "brand":"chicago",
         "origin":"India"
       },
@@ -55,7 +55,7 @@
         "Color":"light Red",
         "Quantity":1,
         "details":"this product is imported from india and this product is best",
-        "available_size":["M","S","L","XL"],
+        "size":["M","S","L","XL"],
         "brand":"chicago",
         "origin":"India"
       },
@@ -67,7 +67,7 @@
         "Color":"white",
         "Quantity":1,
         "details":"this product is imported from india and this product is best",
-        "available_size":["M","S","L","XL"],
+        "size":["M","S","L","XL"],
         "brand":"chicago",
         "origin":"India"
       }
