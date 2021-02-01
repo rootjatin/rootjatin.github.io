@@ -1,7 +1,7 @@
 [
     {
         "name": "Blazer",
-        "picture": "images/products/blazer1.jpeg",
+        "picture": "https://rootjatin.github.io/assets/images/rajasthanCreations/assets/decor%20(1).jpg",
         "old_price": 120,
         "price": 85,
         "Color":"Red",
@@ -13,7 +13,7 @@
       },
       {
         "name": "Red dress",
-        "picture": "images/products/dress1.jpeg",
+        "picture": "https://rootjatin.github.io/assets/images/rajasthanCreations/assets/decor%20(2).jpg",
         "old_price": 100,
         "price": 50,
         "Color":"Yellow",
@@ -25,7 +25,7 @@
       },
       {
         "name": "Heels type 1",
-        "picture": "images/products/hills1.jpeg",
+        "picture":"https://rootjatin.github.io/assets/images/rajasthanCreations/assets/decor%20(3).jpg",
         "old_price": 100,
         "price": 50,
         "Color":"black",
@@ -37,7 +37,7 @@
       },
       {
         "name": "blazer type 2",
-        "picture": "images/products/blazer2.jpeg",
+        "picture": "https://rootjatin.github.io/assets/images/rajasthanCreations/assets/decor%20(4).jpg",
         "old_price": 100,
         "price": 50,
         "Color":"dark Red",
@@ -49,7 +49,7 @@
       },
       {
         "name": "heels type 2",
-        "picture": "images/products/pants2.jpeg",
+        "picture": "https://rootjatin.github.io/assets/images/rajasthanCreations/assets/decor%20(5).jpg",
         "old_price": 100,
         "price": 50,
         "Color":"light Red",
@@ -61,7 +61,7 @@
       },
       {
         "name": "black dress",
-        "picture": "images/products/dress2.jpeg",
+        "picture": "https://rootjatin.github.io/assets/images/rajasthanCreations/assets/decor%20(6).jpg",
         "old_price": 100,
         "price": 50,
         "Color":"white",
