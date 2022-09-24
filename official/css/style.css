@@ -1,0 +1,86 @@
+
+#topHeader{
+    border-bottom: 1px solid #ebebeb;
+}
+#topHeader a{
+     color:#2c3e50;
+     font-weight: 600;
+     font-size:  0.89rem;
+}
+.container-fluid{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+nav ul li a {
+    color:black;
+ font-size:1.1em;
+ font-weight:600;
+}
+/* styling for FOOTER*/
+.full-footer{
+    background-color: darkolivegreen;
+}
+.top-footer p{
+    color:white;
+}
+.top-footer a{
+    color:white;
+    font-weight: 600;
+}
+.top-footer h3{
+    color:white;
+}
+.top-footer h5{
+    color:white;
+}
+.bottom-footer{
+    background-color: #2e3a18;
+}
+.bottom-footer p{
+    color: white;
+}
+/*End of styling for FOOTER*/
+.top-section h5{
+ color: black;
+}
+.buy1{
+	background-color:rgb(69, 90, 26);
+	color:whitesmoke;
+	border-radius: 25px;
+	border: 1px solid white;
+	width: 35%;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.buy1:hover{
+	background-color:transparent;
+    color: black;
+    border: 1px solid black;
+}
+.navbar-custom {
+    background-color:#5f7537;
+}
+.navbar-custom .navbar-nav .nav-link {
+    color: white
+}
+.navbar-custom .nav-item:hover .nav-link {
+    color: black;
+    background-color: transparent;
+}
+.custom-toggler{
+    background-color: #ebebeb;
+    border-color: white;
+}
+#example2:hover{
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+.buy2{
+    background-color:rgb(69, 90, 26);
+	color:whitesmoke;
+	border-radius: 25px;
+	border: 1px solid white;
+	width: 30%;
+}
+#quality-img{
+    width:50px;
+}

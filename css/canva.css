@@ -1,0 +1,74 @@
+body{
+  overflow: hidden;
+}
+#container
+{
+  height: 100%;
+  position: relative;
+  width: 100%;
+  
+}
+#viewport
+{
+  height: 100%;
+  width: 100%;
+  
+}
+#controls
+{
+  bottom: 0;
+  left : 3%;
+  position: absolute;
+  width: 86%;
+  
+}
+.button {
+    border: none;
+    color: white;
+    padding: 25px 45px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+textareaa{
+  border: none;
+  color: white;
+  padding: 25px 45px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+
+    
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 40%;
+  height: 10%;
+  background-color:transparent;
+}
+  
+.button1 {
+  float: left;
+  background-color: #367737;} /* Green */
+.button2 
+{
+  float: right;
+  background-color: #008CBA;
+  
+} /* Blue */
+
+#preloader{
+  background : #000 url("../gifs/loader.gif") no-repeat center center;
+  background-size : 15%;
+  height : 100vh;
+  width: 100%;
+  position : fixed; 
+  z-index : 100;
+}
+
+

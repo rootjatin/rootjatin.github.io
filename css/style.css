@@ -1,0 +1,24 @@
+/* this is for the clock  */
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*
+{
+    margin:0; 
+    padding : 0; 
+    box-sizing : border-box; 
+    font-family: 'Poppins',sans-serif;
+}
+body
+{
+display: flex;
+justify-content: center;
+align-items: center;
+min-height:100vh; 
+background: #3f7e69;
+}
+#time
+{
+    display:flex;
+    gap:40px;
+    color:#fff;
+}

@@ -1,0 +1,8 @@
+{
+  "name": "Red dress",
+  "picture": "images/products/dress1.jpeg",
+  "old_price": 100,
+  "price": 50,
+  "Color":"Yellow",
+  "Quantity":1
+}

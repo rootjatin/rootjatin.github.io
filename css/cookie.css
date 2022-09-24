@@ -1,0 +1,45 @@
+* 
+{
+margin: 1; 
+
+}
+
+body{
+    font-family: "Roboto",sans-serif;
+}
+
+p{
+    margin :24px 0;
+    line-height:2; 
+
+}
+
+.cookie-container {
+    position : fixed; 
+    bottom: -100%;
+    left : 0; 
+    right : 0; 
+    background : #2f3640;
+    color : #f5f6fa;
+    padding : 0 32px;  
+    box-shadow : 0 -2px 32px rgba(47, 64, 59, 0.171); 
+    transition : 400ms; 
+    z-index: 2; 
+}
+.cookie-container.active
+{
+    bottom: 0; 
+}
+.cookie-container a{
+    color:  #f5f6fa;
+
+}
+.cookie-btn{
+    background: #e84118;
+    border: 0; 
+    color: #f5f6fa;
+    padding : 12px 48px; 
+    margin-bottom: 16px ;
+    border-radius: 8px ; 
+    cursor : pointer; 
+}
