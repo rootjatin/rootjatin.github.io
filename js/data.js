@@ -47,15 +47,18 @@ export var joke=[
 export var aboutme=[
     "I am Jatin Sharma",
     "I do nothing I just give instructions to dumb machines whole day",
-    "BTW let me tell you I live in one of  hottest place on Earth " ,
+    "I am from Jaipur Rajasthan which is called Pink city of India " ,
     "I work for TCS with NCRA in development of a radio Telescope" ,
     "I love to read popular science books",
     "I don't use social media sites",
     "Been part of a beautiful team which made a humanoid Robot",
     "I like to solve competitive programming problems",
-    "I am working on new project about hyper dimension in threeJs",
-    "" ,
-
+    "I am working on new project about hyper dimensions in threeJs",
+    "you can connect with me through my email: contact@jatinsharma.life" ,
+    "I also have some personal experience with Unity and blender",
+    "I can solve some minor machines in HTB CTF challenges",
+    "My passion lies in doing theoretical research in quantum field theory",
+    "I am also learning about Topology in Mathematics"
 ]
 
 
