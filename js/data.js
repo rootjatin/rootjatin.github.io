@@ -54,11 +54,11 @@ export var aboutme=[
     "Been part of a beautiful team which made a humanoid Robot",
     "I like to solve competitive programming problems",
     "I am working on new project about hyper dimensions in threeJs",
-    "you can connect with me through my email: contact@jatinsharma.life" ,
+    "you can connect with me through mail: contact@jatinsharma.life" ,
     "I also have some personal experience with Unity and blender",
     "I can solve some minor machines in HTB CTF challenges",
     "My passion lies in doing theoretical research in quantum field theory",
-    "I am also learning about Topology in Mathematics"
+    "I am like to learn about Algebraic topology"
 ]
 
 
