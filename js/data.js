@@ -58,7 +58,7 @@ export var aboutme=[
     "I also have some personal experience with Unity and blender",
     "I can solve some minor machines in HTB CTF challenges",
     "My passion lies in doing theoretical research in quantum field theory",
-    "I am like to learn about Algebraic topology"
+    "I like to learn about Algebraic topology"
 ]
 
 
