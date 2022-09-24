@@ -615,10 +615,10 @@ gObject=[
        }),
        new GObject({
         x:tt1*9+1200 ,
-        y:aa-300-aa1+5,
+        y:aa-200-aa1+5,
         image:exp2,
-        width:420,
-        height: 300
+        width:300,
+        height: 200
        }),
        new GObject({
         x:tt1*9+1700 ,
@@ -662,13 +662,7 @@ gObject=[
         width:300,
         height: 200
        }),
-       new GObject({
-        x:9150 ,
-        y:aa-200-aa1+5,
-        image:matlab,
-        width:300,
-        height: 200
-       }),
+       
        new GObject({
         x:9650 ,
         y:aa-200-aa1+5,
@@ -680,14 +674,14 @@ gObject=[
         x:10000 ,
         y:aa-200-aa1+5,
         image:robot,
-        width:300,
+        width:200,
         height: 200
        }),
        new GObject({
-        x:10380 ,
+        x:10430 ,
         y:aa-200-aa1+5,
         image:charger,
-        width:300,
+        width:200,
         height: 200
        }),
        new GObject({
