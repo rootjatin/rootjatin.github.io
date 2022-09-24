@@ -98,6 +98,7 @@ jumpp.onmouseup=jump1;
 jumpp.ontouchend=jump1;
 
 
+let xran = Math.floor((Math.random() * 6) );
 
 
 const gravity=0.5; 
@@ -922,6 +923,10 @@ if (scrollOffset>12000 && downl){
 // loose condition 
 
 if (player.position.y>canvas.height){
+    alert(joke[xran])
+    keys.right.pressed=false
+    keys.left.pressed=false
+    player.velocity.y=0
     init();
  }
 

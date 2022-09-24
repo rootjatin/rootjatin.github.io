@@ -26,13 +26,22 @@ export var activities=[
     "Sleep"
 
 ]
-export var joke=[ "Thank God this is 21st Century otherwise this site would have been an auction site \n rather than a portfolio",
+// export var joke=[ "Thank God this is 21st Century otherwise this site would have been an auction site \n rather than a portfolio",
 
- "I am teetotaller but not by choice just my salary doesn't allow me to drink",
-"This website was suppose to be a  collection of joke so I put my life in this",
- "I am so ugly that in every group photo they hand me over camera",
-"I am so ugly that even health insurance companies rejected my application",
-"Only time people likes me is when i wear mask "
+//  "I am teetotaller but not by choice just my salary doesn't allow me to drink",
+// "This website was suppose to be a  collection of joke so I put my life in this",
+//  "I am so ugly that in every group photo they hand me over camera",
+// "I am so ugly that even health insurance companies rejected my application",
+// "Only time people likes me is when i wear mask "
+// ]
+
+export var joke=[
+    "falling doesn't mean you can't start again ",
+    "Don't worry it happens , I also lost many chess matches in inter college tournaments ",
+    "nevermind start again I also tried multiple times to grab 10 in IELTS ",
+    "no luck this time try it once more ",
+    "I am sure you gonna win , this  attempt is not gonna matter",
+    "You got one more chance to start this wonderful journey again from scratch"
 ]
 
 export var aboutme=[
