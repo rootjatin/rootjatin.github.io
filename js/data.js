@@ -49,6 +49,7 @@ export var aboutme=[
     "I do nothing I just give instructions to dumb machines whole day",
     "I am from Jaipur Rajasthan which is called Pink city of India " ,
     "I work for TCS with NCRA in development of a radio Telescope" ,
+    "wish me on January 10",
     "I love to read popular science books",
     "I don't use social media sites",
     "Been part of a beautiful team which made a humanoid Robot",
@@ -58,7 +59,8 @@ export var aboutme=[
     "I also have some personal experience with Unity and blender",
     "I can solve some minor machines in HTB CTF challenges",
     "My passion lies in doing theoretical research in quantum field theory",
-    "I like to learn about Algebraic topology"
+    "I am also learning about Topology in Mathematics",
+
 ]
 
 

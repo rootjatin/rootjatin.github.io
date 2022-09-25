@@ -33,7 +33,7 @@ var matlab =createImage('./img/matlab.png')
 var charger=createImage('./img/charger.png')
 var game1=createImage('./img/game11.png')
 var game2=createImage('./img/game12.png')
-var robot =createImage('./img/robot1.png')
+var robot =createImage('./img/robot.png')
 var skills =createImage('./img/signskills.png')
 var signproject=createImage('./img/project1.png')
 var cpp =createImage('./img/skillc.png')
@@ -1051,7 +1051,7 @@ function rightbu1(){
         else if (scrollOffset+pos.x > 13320+player.width &&
             (scrollOffset+pos.x < 13430+player.width ) 
             ){
-            window.open('mailto:contact@jatinsharma.life');
+            window.open('mailto:rootjatin@gmail.com');
         }
         
         else if (scrollOffset+pos.x > 13430+player.width &&
@@ -1064,6 +1064,11 @@ function rightbu1(){
             ){
             window.open("https://telegram.me/rootjatin",'_blank');
         }
+
+    }
+    else if ((pos.x+scrollOffset>10000)&& (pos.x+scrollOffset<10200)&& 
+    (pos.y>aa-200-aa1+5)&& pos.y<aa-aa1+5){
+        window.open("https://youtu.be/bUHOEZJiqfk","_blank")
 
     }
     
