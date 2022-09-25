@@ -591,30 +591,30 @@ gObject=[
        // toweres 
        new GObject({
         x:tt1*7+50 ,
-        y:aa-500-aa1+10,
+        y:aa-325-aa1+10,
         image:ach1,
         width:300,
-        height: 500
+        height: 325
        }),
        new GObject({
-        x:tt1*7+400 ,
-        y:aa-400-aa1+10,
+        x:tt1*7+450 ,
+        y:aa-370-aa1+10,
         image:ach2,
         width:300,
-        height: 400
+        height: 370
        }),
        new GObject({
-        x:tt1*8+150 ,
-        y:aa-400-aa1+10,
+        x:tt1*8+250 ,
+        y:aa-350-aa1+10,
         image:ach3,
-        width:300,
-        height: 400
+        width:307,
+        height: 350
        }),
        new GObject({
-        x:tt1*8+500 ,
+        x:tt1*8+600 ,
         y:aa-400-aa1+10,
         image:ach4,
-        width:300,
+        width:350,
         height: 400
        }),
        new GObject({
