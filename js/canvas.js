@@ -1,6 +1,6 @@
 
-const aa=innerHeight
-const bb = innerWidth
+var aa=innerHeight
+var bb = innerWidth
 var tr=true
 var changer=0; 
 
@@ -18,11 +18,26 @@ function createImage(imageSrc){
   image.src= imageSrc
 return image
 
-
 }
+
+
+var myAudio = new Audio('./music/mario.mp3'); 
+var myAudio1 = new Audio('./music/jump.mp3'); 
+if (typeof myAudio.loop == 'boolean')
+{
+    myAudio.loop = true;
+}
+{
+    myAudio.addEventListener('ended', function() {
+        this.currentTime = 1;
+        this.play();
+    }, false);
+}
+
 var dow=document.getElementById('pddf')
 dow.href ='./pdf/thanks.pdf'
-
+var credit=createImage('./img/credits.png')
+var music=createImage('./img/music.png')
 var flag =createImage('./img/flag.png')
 var chess1=createImage('./img/chess12.png')
 var signhobby =createImage('./img/signhobby.png')
@@ -96,7 +111,7 @@ leftb.ontouchend=leftbu1;
 rightb.ontouchend=rightbu1;
 jumpp.onmouseup=jump1;
 jumpp.ontouchend=jump1;
-
+var musicbutton=false
 
 let xran = Math.floor((Math.random() * 6) );
 
@@ -193,7 +208,9 @@ function drow(str="hello"){
         
     }
 
-
+function drowmusic(img,x,y,w,h){
+    c.drawImage(img,x,y,w,h)
+}
 
 
 class Clock{
@@ -750,6 +767,13 @@ gObject=[
         height: 100
        }),
        new GObject({
+        x:13760 ,
+        y:aa-65-aa1+5,
+        image:credit,
+        width:120,
+        height: 45
+       }),
+       new GObject({
         x:13160 +player.width,
         y:aa-400-aa1+5,
         image:flag,
@@ -769,6 +793,7 @@ gObject=[
 
 //player.draw();
 scrollOffset=0
+
 if(true){
     window.addEventListener("load",function(){
         loader.style.display="none";
@@ -813,7 +838,7 @@ function animate (){
    
     clock.draw()
     drow(activity[Math.floor(scrollOffset/533)])
-
+    drowmusic(music,230,75,125,45);
     
     // move right motion 
     if ((keys.right.pressed && player.position.x<400) ||
@@ -930,6 +955,8 @@ if (player.position.y>canvas.height){
     init();
  }
 
+ 
+
 
  // end of update function 
 }
@@ -943,7 +970,10 @@ addEventListener('keydown',({keyCode})=>{
             currentKey='left'
             break; 
         case (87):
+            if(player.velocity.y==0){           
             player.velocity.y-=10;
+            myAudio1.play()
+            }
             break;
         case (83):
             break;
@@ -952,7 +982,10 @@ addEventListener('keydown',({keyCode})=>{
             currentKey='right'
             break;
         case (38):
-            player.velocity.y-=10;
+            if(player.velocity.y==0){           
+                player.velocity.y-=10;
+                myAudio1.play()
+                }
             break;
         case (40):
             break;
@@ -1007,7 +1040,8 @@ addEventListener('keyup',({keyCode})=>{
 
 function jump(){
     player.velocity.y-=10;
-    console.log(scrollOffset)
+    myAudio1.play()
+    
 
 }
 
@@ -1015,8 +1049,11 @@ function jump1(){
     player.velocity.y+=0;
 }
 function leftbu(){
+    
     keys.left.pressed=true;
+    
     currentKey='left'
+    
 }
 function leftbu1(){
     keys.left.pressed=false;
@@ -1026,7 +1063,9 @@ function leftbu1(){
 }
 function rightbu(){
     keys.right.pressed=true;
+   
     currentKey='right'
+   
 }
 function rightbu1(){
     keys.right.pressed=false;
@@ -1064,6 +1103,12 @@ function rightbu1(){
             ){
             window.open("https://telegram.me/rootjatin",'_blank');
         }
+        else if (scrollOffset+pos.x > 13758 &&
+            (scrollOffset+pos.x < 13880 ) 
+            ){
+            window.open("./credits.html",'_blank');
+        }
+
 
     }
     else if ((pos.x+scrollOffset>10000)&& (pos.x+scrollOffset<10200)&& 
@@ -1071,7 +1116,22 @@ function rightbu1(){
         window.open("https://youtu.be/bUHOEZJiqfk","_blank")
 
     }
-    
+    else if ((pos.x>230)&& (pos.x<350)&& 
+    (pos.y>75)&& pos.y<120){
+       musicbutton=!musicbutton
+       if (musicbutton){
+        myAudio.play();
+        myAudio.volume=0.1
+        myAudio.loop=true;
+        }
+        else{
+            myAudio.pause();
+            myAudio.currentTime = 0;
+        }
+
+    }
+    console.log(pos.y)
+    console.log(pos.x)
   });
 
 
