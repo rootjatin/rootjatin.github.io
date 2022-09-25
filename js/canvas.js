@@ -1051,7 +1051,7 @@ function rightbu1(){
         else if (scrollOffset+pos.x > 13320+player.width &&
             (scrollOffset+pos.x < 13430+player.width ) 
             ){
-            window.open('mailto:rootjatin@gmail.com');
+            window.open('mailto:contact@jatinsharma.life');
         }
         
         else if (scrollOffset+pos.x > 13430+player.width &&
