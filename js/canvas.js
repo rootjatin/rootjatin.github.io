@@ -1113,7 +1113,7 @@ function rightbu1(){
     }
     else if ((pos.x+scrollOffset>10000)&& (pos.x+scrollOffset<10200)&& 
     (pos.y>aa-200-aa1+5)&& pos.y<aa-aa1+5){
-        window.open("https://youtu.be/bUHOEZJiqfk","_blank")
+        window.open("https://www.youtube.com/watch?v=bUHOEZJiqfk","_blank")
 
     }
     else if ((pos.x>230)&& (pos.x<350)&& 
