@@ -1039,9 +1039,12 @@ addEventListener('keyup',({keyCode})=>{
 })
 
 function jump(){
-    player.velocity.y-=10;
-    myAudio1.play()
-    
+//     player.velocity.y-=10;
+//     myAudio1.play()
+    if(player.velocity.y==0){           
+            player.velocity.y-=10;
+            myAudio1.play()
+            }
 
 }
 
