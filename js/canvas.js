@@ -406,7 +406,7 @@ init()
 
 /// this function activate only if the player fall or dies 
 function init(){
-
+xran = Math.floor((Math.random() * 6) );
  platformImage=platform
  aa1=platformImage.height
 
