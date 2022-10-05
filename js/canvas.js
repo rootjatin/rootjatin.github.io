@@ -697,10 +697,10 @@ gObject=[
        }),
        new GObject({
         x:10430 ,
-        y:aa-320-aa1+5,
+        y:aa-270-aa1+5,
         image:charger,
-        width:320,
-        height: 320
+        width:270,
+        height: 270
        }),
        new GObject({
         x:10850 ,
