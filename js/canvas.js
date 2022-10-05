@@ -1114,8 +1114,8 @@ function rightbu1(){
 
 
     }
-    else if ((pos.x+scrollOffset>10000)&& (pos.x+scrollOffset<10200)&& 
-    (pos.y>aa-200-aa1+5)&& pos.y<aa-aa1+5){
+    else if ((pos.x+scrollOffset>10000)&& (pos.x+scrollOffset<10320)&& 
+    (pos.y>aa-320-aa1+5)&& pos.y<aa-aa1+5){
         window.open("https://www.youtube.com/watch?v=I6sE9vYunN4","_blank")
 
     }
