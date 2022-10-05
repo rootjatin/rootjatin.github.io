@@ -690,10 +690,10 @@ gObject=[
        }),
        new GObject({
         x:10000 ,
-        y:aa-200-aa1+5,
+        y:aa-270-aa1+5,
         image:robot,
         width:200,
-        height: 200
+        height: 270
        }),
        new GObject({
         x:10430 ,
@@ -1133,8 +1133,6 @@ function rightbu1(){
         }
 
     }
-    console.log(pos.y)
-    console.log(pos.x)
   });
 
 
