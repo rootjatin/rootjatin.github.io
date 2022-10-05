@@ -37,7 +37,7 @@ body{
 
 textareaa{
   border: none;
-  color: white;
+  color: black;
   padding: 25px 45px;
   text-align: center;
   text-decoration: none;
@@ -54,17 +54,29 @@ textareaa{
   
 .button1 {
   float: left;
-  background-color: #367737;} /* Green */
+  background-color: #367737; /* Green */
+  border-bottom-left-radius: 15px ; 
+  border-bottom-right-radius: 15px ; 
+  border-top-left-radius: 15px ; 
+  border-top-right-radius: 15px ; 
+  opacity: 66%;
+}
+
 .button2 
 {
   float: right;
   background-color: #008CBA;
+  border-bottom-left-radius: 15px ; 
+  border-bottom-right-radius: 15px ; 
+  border-top-left-radius: 15px ; 
+  border-top-right-radius: 15px ; 
+  opacity: 65%;
   
 } /* Blue */
 
 #preloader{
-  background : #000 url("../gifs/loader.gif") no-repeat center center;
-  background-size : 40%;
+  background : #000 url("../gifs/opener.gif") no-repeat center center;
+  background-size : 30%;
   height : 100vh;
   width: 100%;
   position : fixed; 
