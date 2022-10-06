@@ -1083,35 +1083,46 @@ function rightbu1(){
         x: e.clientX,
         y:e.clientY
     };
-    if((pos.y>aa-100-aa1+5)&&(pos.y<aa-aa1+5)){
-        if (scrollOffset+pos.x > 13200+player.width &&
-            (scrollOffset+pos.x < 13310+player.width ) 
-            ){
+    
+    if (scrollOffset+pos.x > 13200+player.width &&
+        (scrollOffset+pos.x < 13310+player.width ) &&
+        ((pos.y>aa-100-aa1+5)&&(pos.y<aa-aa1+5))
+        )
+        {
             window.open('https://www.linkedin.com/in/rootjatin','_blank')
         }
 
-        else if (scrollOffset+pos.x > 13320+player.width &&
-            (scrollOffset+pos.x < 13430+player.width ) 
+     else if (scrollOffset+pos.x > 13320+player.width &&
+            (scrollOffset+pos.x < 13430+player.width ) &&
+            ((pos.y>aa-100-aa1+5)&&(pos.y<aa-aa1+5))
             ){
             window.open('mailto:rootjatin@gmail.com');
         }
         
-        else if (scrollOffset+pos.x > 13430+player.width &&
-            (scrollOffset+pos.x < 13550+player.width ) 
+     else if (scrollOffset+pos.x > 13430+player.width &&
+            (scrollOffset+pos.x < 13550+player.width ) &&
+            ((pos.y>aa-100-aa1+5)&&(pos.y<aa-aa1+5))
             ){
             window.open('https://www.github.com/rootjatin',"_bland");
         }
-        else if (scrollOffset+pos.x > 13555+player.width &&
-            (scrollOffset+pos.x < 13670+player.width ) 
+    else if (scrollOffset+pos.x > 13555+player.width &&
+            (scrollOffset+pos.x < 13670+player.width ) &&
+            ((pos.y>aa-100-aa1+5)&&(pos.y<aa-aa1+5))
             ){
             window.open("https://telegram.me/rootjatin",'_blank');
         }
-        else if (scrollOffset+pos.x > 13758 &&
-            (scrollOffset+pos.x < 13880 ) 
+    else if (scrollOffset+pos.x > 13758 &&
+            (scrollOffset+pos.x < 13880 ) &&
+            ((pos.y>aa-100-aa1+5)&&(pos.y<aa-aa1+5))
             ){
             window.open("./credits.html",'_blank');
         }
 
+
+    
+    else if ((pos.x+scrollOffset>12100)&& (pos.x+scrollOffset<12254)&& 
+    (pos.y>aa-150-aa1+5)&& pos.y<aa-aa1+5){
+         window.open("https://www.jatinsharma.life/favbooks","_blank")
 
     }
     else if ((pos.x+scrollOffset>10000)&& (pos.x+scrollOffset<10250)&& 
@@ -1119,11 +1130,7 @@ function rightbu1(){
         window.open("https://www.youtube.com/watch?v=I6sE9vYunN4","_blank")
 
     }
-     else if ((pos.x+scrollOffset>12100)&& (pos.x+scrollOffset<12254)&& 
-    (pos.y>aa-150-aa1+5)&& pos.y<aa-aa1+5){
-        window.open("https://www.jatinsharma.life/favbooks","_blank")
-
-    }
+     
     else if ((pos.x>230)&& (pos.x<350)&& 
     (pos.y>75)&& pos.y<120){
        musicbutton=!musicbutton
@@ -1139,7 +1146,3 @@ function rightbu1(){
 
     }
   });
-
-
-
-
