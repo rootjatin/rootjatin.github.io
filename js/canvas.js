@@ -1119,7 +1119,7 @@ function rightbu1(){
         window.open("https://www.youtube.com/watch?v=I6sE9vYunN4","_blank")
 
     }
-     else if ((pos.x+scrollOffset>12060)&& (pos.x+scrollOffset<12210)&& 
+     else if ((pos.x+scrollOffset>12060+player.width)&& (pos.x+scrollOffset<12210+ player.width)&& 
     (pos.y>aa-150-aa1+5)&& pos.y<aa-aa1+5){
         window.open("https://www.jatinsharma.life/favbooks","_blank")
 
