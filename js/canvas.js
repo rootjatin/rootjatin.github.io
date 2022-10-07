@@ -782,10 +782,10 @@ gObject=[
        }),
        new GObject({
         x:12360 +player.width,
-        y:aa-150-aa1+5,
+        y:aa-200-aa1+5,
         image:chess1,
         width:200,
-        height: 150
+        height: 200
        }),
        
        
