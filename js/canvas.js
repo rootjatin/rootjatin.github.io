@@ -733,10 +733,10 @@ gObject=[
        
        new GObject({
         x:12130 ,
-        y:aa-200-aa1+5,
+        y:aa-250-aa1+5,
         image:book,
-        width:150,
-        height: 200
+        width:200,
+        height: 250
        }),
        new GObject({
         x:13200 +player.width,
@@ -1120,8 +1120,8 @@ function rightbu1(){
 
 
     
-    else if ((pos.x+scrollOffset>12120)&& (pos.x+scrollOffset<12274)&& 
-    (pos.y>aa-200-aa1+5)&& pos.y<aa-aa1+5){
+    else if ((pos.x+scrollOffset>12120)&& (pos.x+scrollOffset<12330)&& 
+    (pos.y>aa-250-aa1+5)&& pos.y<aa-aa1+5){
          window.open("https://www.jatinsharma.life/favbooks","_blank")
 
     }
