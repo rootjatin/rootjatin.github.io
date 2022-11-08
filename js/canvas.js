@@ -1,14 +1,18 @@
-
+// this code is for screen size 
 var aa=innerHeight
 var bb = innerWidth
 var tr=true
+// changer will administer the change in subtitles below 
 var changer=0; 
 
+//data coming from another js files 
 import {joke,aboutme,activities} from "./data.js"
 var activity=activities
 
+// for download pdf at end 
 var downl=true;
 
+// this code will be used for creating image from given path 
 function createImage(imageSrc){
     const image= new Image()
 
@@ -19,7 +23,7 @@ function createImage(imageSrc){
 return image
 
 }
-
+// code to administer audio in the code 
 
 var myAudio = new Audio('./music/mario.mp3'); 
 var myAudio1 = new Audio('./music/jump.mp3'); 
@@ -36,6 +40,8 @@ if (typeof myAudio.loop == 'boolean')
 
 var dow=document.getElementById('pddf')
 dow.href ='./pdf/thanks.pdf'
+
+// creating images from the path and createImage function 
 var credit=createImage('./img/credits.png')
 var music=createImage('./img/music.png')
 var flag =createImage('./img/flag.png')
