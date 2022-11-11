@@ -93,7 +93,7 @@ const spritestandright=createImage('./img/spriteMarioStandRight.png')
 const canvas = document.querySelector('canvas');
 const c = canvas.getContext('2d');
 
-
+// setting canvas width and height 
 canvas.width= innerWidth;
 canvas.height= innerHeight;
 
@@ -121,9 +121,10 @@ var musicbutton=false
 
 let xran = Math.floor((Math.random() * 6) );
 
-
+//gravity calculation 
 const gravity=0.5; 
 
+// class of players
 class Player{
     constructor (){
         this.speed=10
@@ -191,6 +192,8 @@ class Player{
         }
     }
 }
+
+// platform class
 class Platform{
     constructor({x,y,image}){
         this.position={
