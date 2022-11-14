@@ -96,7 +96,7 @@ const c = canvas.getContext('2d');
 // setting canvas width and height 
 canvas.width= innerWidth;
 canvas.height= innerHeight;
-
+// dom element for buttons and text area for subtitles 
 var jumpp=document.getElementById("d-up");
 var texxt=document.getElementById("textareaa");
 var leftb=document.getElementById("left-btn");
