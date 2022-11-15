@@ -118,7 +118,7 @@ rightb.ontouchend=rightbu1;
 jumpp.onmouseup=jump1;
 jumpp.ontouchend=jump1;
 var musicbutton=false
-
+// for random number for subtitles 
 let xran = Math.floor((Math.random() * 6) );
 
 //gravity calculation 
