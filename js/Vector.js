@@ -1,3 +1,5 @@
+// this file mainly deals with clock functionality of the game 
+
 function Vector (magnitude, angle) {
     var m, a;
 
