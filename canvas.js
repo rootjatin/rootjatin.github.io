@@ -1,4 +1,4 @@
-
+//initial code for canvas 
 var aa=innerHeight
 var bb = innerWidth
 var tr=true
