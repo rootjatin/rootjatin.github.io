@@ -221,7 +221,7 @@ function drowmusic(img,x,y,w,h){
     c.drawImage(img,x,y,w,h)
 }
 
-
+// this class is for my routine clock 
 class Clock{
     constructor(){
     
