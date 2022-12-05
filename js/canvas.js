@@ -342,7 +342,7 @@ class Clock{
 
 
 
-
+// Generic objects are meant for displaying the background in the game 
 class GenericObject{
     constructor({x,y,image,height=1024,width=574}){
         this.position={
@@ -359,6 +359,7 @@ class GenericObject{
     }
     
 };
+// gobject class is meant for displaying the environment objects like trees and boards area 
 class GObject{
     constructor({x,y,image,height,width}){
         this.position={
