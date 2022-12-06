@@ -828,7 +828,7 @@ function inner (tr){
 }
 
 
-
+// this function will run multiple continuously 
 function animate (){
     requestAnimationFrame(animate);
     inner(tr);
