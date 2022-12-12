@@ -535,7 +535,7 @@ new GenericObject({
 
 ]
 
-
+// this code will put the game objects in its place 
 
 gObject=[
     new GObject({
