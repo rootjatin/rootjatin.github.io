@@ -474,7 +474,7 @@ xran = Math.floor((Math.random() * 6) );
 
 ];
 
-
+// this genericObjects are for putting background images in the console 
 genericObject=[
     new GenericObject({
     x:0,
