@@ -23,7 +23,7 @@ function createImage(imageSrc){
 return image
 
 }
-// code to administer audio in the code 
+// code to administer audio in the code after clicking button 
 
 var myAudio = new Audio('./music/mario.mp3'); 
 var myAudio1 = new Audio('./music/jump.mp3'); 
