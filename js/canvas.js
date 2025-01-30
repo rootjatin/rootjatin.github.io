@@ -1132,7 +1132,7 @@ function rightbu1(){
     
     else if ((pos.x+scrollOffset>12120)&& (pos.x+scrollOffset<12330)&& 
     (pos.y>aa-250-aa1+5)&& pos.y<aa-aa1+5){
-         window.open("https://www.jatinsharma.life/favbooks","_blank")
+         window.open("/favbooks","_blank")
 
     }
     else if ((pos.x+scrollOffset>10000)&& (pos.x+scrollOffset<10250)&& 
