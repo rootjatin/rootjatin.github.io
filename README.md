@@ -5,3 +5,4 @@ This is my interactive portfolio website which you can play and enjoy rootjatin.
  https://rootjatin.github.io for playing the game and talking with chatbot 
 please visit and share this website 
 i am planning to make more such interesting portfolio
+as of now its a private repository 
